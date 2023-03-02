@@ -34,7 +34,7 @@ export const Form = styled.form`
     }
 
     > a {
-        margin-top: 124px;
+        margin-top: 90px;
         color: ${({ theme }) => theme.COLORS.ORANGE};
     }
 `;

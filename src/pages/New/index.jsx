@@ -65,7 +65,8 @@ export function New() {
         });
 
         alert("Nota enviada com sucesso!");
-        useNavigate(-1);
+        
+        handleBack();
     }
 
     return(
