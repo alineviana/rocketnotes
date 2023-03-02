@@ -50,13 +50,26 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
     grid-area: search;
-    padding: 64px 64px 0;
+    padding: 50px 64px 0;
 `;
 
 export const Content = styled.div`
     grid-area: content;
     padding: 0 64px;
     overflow-y: auto;
+
+    ::-webkit-scrollbar {
+    width: 0.45rem;               
+    }
+  
+    ::-webkit-scrollbar-track {
+    background: transparent;        
+    }
+
+    ::-webkit-scrollbar-thumb {  
+    border-radius: 2rem;
+    border: 0.3px solid ${({ theme }) => theme.COLORS.ORANGE};    
+    }
 `;
 
 export const NewNote = styled(Link)`
