@@ -5,6 +5,10 @@
 
 <br>
 
+
+https://user-images.githubusercontent.com/80078418/222786592-15b1f26a-059e-4728-ad11-e71ea52fc261.mp4
+
+
 ✨ Clique [AQUI](https://rocketnottes.netlify.app/) para acessar o projeto
 
 <br>
